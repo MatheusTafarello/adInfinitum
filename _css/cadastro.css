@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../_fonts/Poppins/Poppins-Regular.ttf) format('truetype')
+}
+
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../_imgs/bgcad.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 160vh;
+}
+
+.container {
+    font-family: Consolas;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.formulario {
+    padding-left: 10px;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    height: 55vh;
+    width: 60vw;
+    display: inline-block;
+    background-color: rgba(187, 70, 187, 0.404);
+    color: rgb(194, 194, 194);
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    box-shadow: 10px 10px 15px -2px black;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.title {
+    color: rgb(241, 240, 240);
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.cabecalho img {
+    margin-top: 1.5vw;
+    margin-bottom: -1.5vw;
+    margin-left: 45vw;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px -8px black
+}
+
+#cad {
+    font-family: Poppins;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+input {
+    padding-left: 0.5vw;
+    font-family: Poppins;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    height: 20px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    border-bottom: 0.2vw solid #ff7f11;
+    text-align: left;
+    margin-bottom: 1vw;
+    box-sizing: content-box;
+    border-top-style: none;
+    border-top-left-radius: 7px;
+    border-left-style: none;
+    border-top-right-radius: 7px;
+    border-right-style: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+label #user {
+    margin-left: 11vw
+}
+
+label #name {
+    margin-left: 13vw
+}
+
+label #email {
+    margin-left: 18.9vw
+}
+
+label #senha {
+    margin-left: 18.9vw
+}
+
+label #resenha {
+    margin-left: 12.5vw
+}
+
+label #b_date {
+    margin-left: 10.6vw;
+    height: 23px;
+    width: 203px;
+}
+
+button {
+    cursor: pointer;
+    padding: 1vw;
+    font-family: consolas;
+    background-color: rgb(240, 48, 137);
+    box-shadow: 10px 10px 10px -8px black;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(245, 245, 245);
+    font-size: 24px;
+    float: left;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+button:hover {
+    margin-top: -1vw;
+    transform: translateY(-0.5vw);
+}

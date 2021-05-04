@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../_fonts/Poppins/Poppins-Regular.ttf)
+}
+
+@font-face {
+    font-family: "JACKPORT COLLEGE NCT";
+    src: url(../_fonts/JackportCollegeNcv-1MZe.ttf) format(TrueType)
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    background-image: url(../_imgs/bg.jpg);
+}
+
+.polling_message {
+    color: rgb(0, 0, 0);
+    float: left;
+    margin-right: 2%;
+}
+
+.view_port {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cylon_eye {
+    background-color: #ff0095;
+    background-image: linear-gradient(to right, #ebebebe6 25%, #ffffff1a 50%, #eee 90%);
+    color: rgb(0, 0, 0);
+    height: 100%;
+    width: 20%;
+    -webkit-animation: 2s linear 0s infinite alternate move_eye;
+    animation: 2s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye {
+    from {
+        margin-left: -20%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+@keyframes move_eye {
+    from {
+        margin-left: -20%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+.container {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: rgb(212, 212, 212) solid 2px;
+    border-top: rgb(153, 153, 153) dashed 1px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style-type: none;
+}
+
+table td,
+table th {
+    border: 2px solid rgb(221, 221, 221);
+}
+
+button {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black 1px solid;
+    background-color: white;
+}

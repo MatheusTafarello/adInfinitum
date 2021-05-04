@@ -1,0 +1,89 @@
+@font-face {
+    font-family: PoppinsR;
+    src: url(../_fonts/Poppins/Poppins-Regular.ttf) format('truetype')
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    background-image: url(../_imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+}
+
+span {
+    font-family: PoppinsR;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.container {
+    font-family: PoppinsR;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.menu {
+    padding-left: 10px;
+    font-family: PoppinsR;
+    font-size: 18px;
+    height: 50vh;
+    width: 40vw;
+    color: rgb(194, 194, 194);
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+
+/* #btns {
+    cursor: pointer;
+    padding: 10px;
+    font-family: consolas;
+    background-color: rgb(240, 48, 137);
+    box-shadow: 10px 10px 10px -8px black;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(245, 245, 245);
+    font-size: 24px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+} */
+
+label #user {
+    font-family: PoppinsR;
+    border-bottom: 0.2vw solid #ff7f11;
+    text-align: left;
+    margin-bottom: 1vw;
+    box-sizing: content-box;
+    border-top-style: none;
+    border-top-left-radius: 7px;
+    border-left-style: none;
+    border-top-right-radius: 7px;
+    border-right-style: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+button #password {
+    cursor: pointer;
+    font-family: PoppinsR;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(245, 245, 245);
+    font-size: 24px;
+}
+
+button #cadast {
+    margin-top: 1vw;
+}
+
+button #entrar:hover {
+    margin-top: -1vw;
+    transform: translateY(-0.5vw);
+}

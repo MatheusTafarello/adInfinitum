@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Prompt;
+    src: url(../_fonts/Prompt/Prompt-Light.ttf)
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../_fonts/Poppins/Poppins-Regular.ttf)
+}
+
+.container {
+    font-family: Consolas;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.topbar {
+    background-color: rgb(0, 0, 0);
+    color: rgb(233, 233, 233);
+    text-align: left;
+    width: 40.7vw;
+    margin-left: 29vw;
+    height: 30px;
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+.menu {
+    padding-left: 10px;
+    text-align: left;
+    font-family: Prompt;
+    font-size: 18px;
+    height: 50vh;
+    width: 40vw;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(194, 194, 194);
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    box-shadow: 10px 10px 15px -2px black;
+}
+
+input {
+    font-family: consolas;
+    color: white;
+    font-size: 18px;
+    height: 20px;
+    background: rgb(0, 0, 0);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #ff7f11;
+    text-align: left;
+    margin-bottom: 20px;
+}
